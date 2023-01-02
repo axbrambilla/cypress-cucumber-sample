@@ -1,0 +1,28 @@
+{
+  "name": "cypress-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axbrambilla/cypress-sample.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axbrambilla/cypress-sample/issues"
+  },
+  "homepage": "https://github.com/axbrambilla/cypress-sample#readme",
+  "devDependencies": {
+    "cypress": "^12.2.0",
+    "@badeball/cypress-cucumber-preprocessor": "latest"
+  }
+}
